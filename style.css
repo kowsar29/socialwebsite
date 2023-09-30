@@ -1,0 +1,36 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ami{
+    position: relative;
+    overflow: hidden;
+
+}
+.ami img{
+    width: 300px;
+    height: 400px;
+    padding: 30px,15px;
+    border-radius: 10%;
+}
+.ami i{
+    color:#b90a0a;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity:100%;
+    transition: transform ease 0.5s;
+
+
+
+}
